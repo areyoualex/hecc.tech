@@ -1,0 +1,15 @@
+body{
+  width: 100vw;
+  margin: 0px 0px 0px 0px;
+  background: radial-gradient(#d9bbf7, #b1a2e8, #6b6db2);
+}
+h1 {
+  font-family: "Arial";
+  font-size: 6vmin;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-top: 2vh;
+  color: white;
+}
