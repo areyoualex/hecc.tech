@@ -2,6 +2,7 @@ body{
   width: 100vw;
   margin: 0px 0px 0px 0px;
   background: radial-gradient(#d9bbf7, #b1a2e8, #6b6db2);
+  overflow-x: hidden;
 }
 h1 {
   font-family: "Arial";
@@ -10,6 +11,33 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin: auto;
-  margin-top: 2vh;
+  margin-top: 6vh;
+  margin-bottom: 4vh;
   color: white;
+}
+img {
+  display: block;
+  left: 3vw;
+  height: 75vh;
+  margin-right: 5vw;
+}
+
+p {
+  width: 40vw;
+  right: 3vw;
+  height: 75vh;
+  overflow-y: scroll;
+  margin-left: 5vw;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 110vh) {
+  img {
+    height: auto;
+  }
 }
